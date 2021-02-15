@@ -14,9 +14,8 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	// builtin is not included
-	//
-	print([]string{"builtin"})
+	// builtin is not included, force it to printPadded
+	printPadded([]string{"builtin"})
 
 	var before string
 	for _, pkg := range pkgs {
@@ -27,18 +26,17 @@ func main() {
 		if len(split) > 1 {
 			for s := 1; s < len(split); s++ {
 				if !commonRoot(before, strings.Join(split[0:s], "/")) {
-					print(split[:s])
+					printPadded(split[:s])
 					before = strings.Join(split[0:s], "/")
 				}
 			}
 		}
-		print(split)
+		printPadded(split)
 		before = pkg.ID
-		_ = before
 	}
 }
 
-func print(s []string) {
+func printPadded(s []string) {
 	fmt.Printf("%-20v %v\n", strings.Repeat("  ", len(s)-1)+s[len(s)-1], "https://golang.org/pkg/"+strings.Join(s, "/")+"/")
 }
 

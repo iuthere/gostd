@@ -16,19 +16,17 @@ func main() {
 	}
 	// builtin is not included, force it to printPadded
 	printPadded([]string{"builtin"})
-
 	var before string
 	for _, pkg := range pkgs {
 		split := strings.Split(pkg.ID, "/")
 		if among(split, "internal") || split[0] == "vendor" {
 			continue
 		}
-		if len(split) > 1 {
-			for s := 1; s < len(split); s++ {
-				if !commonRoot(before, strings.Join(split[0:s], "/")) {
-					printPadded(split[:s])
-					before = strings.Join(split[0:s], "/")
-				}
+		for s := 1; s < len(split); s++ {
+			joined := strings.Join(split[:s], "/")
+			if !commonRoot(before, joined) {
+				printPadded(split[:s])
+				before = joined
 			}
 		}
 		printPadded(split)

@@ -1,10 +1,13 @@
 # gostd
 
-Output standard Go libraries with URL for each
+An almost useless utility that lists all standard Go libraries in a tree-like way with an URL to documentation for each.
+
+Keeping the output here to retrospectively see the global changes to standard library over time.
 
 ```
 $ go get github.com/iuthere/gostd
 $ gostd
+go1.16
 builtin              https://golang.org/pkg/builtin/
 archive              https://golang.org/pkg/archive/
   tar                https://golang.org/pkg/archive/tar/
@@ -52,6 +55,7 @@ debug                https://golang.org/pkg/debug/
   macho              https://golang.org/pkg/debug/macho/
   pe                 https://golang.org/pkg/debug/pe/
   plan9obj           https://golang.org/pkg/debug/plan9obj/
+embed                https://golang.org/pkg/embed/
 encoding             https://golang.org/pkg/encoding/
   ascii85            https://golang.org/pkg/encoding/ascii85/
   asn1               https://golang.org/pkg/encoding/asn1/
@@ -71,6 +75,7 @@ fmt                  https://golang.org/pkg/fmt/
 go                   https://golang.org/pkg/go/
   ast                https://golang.org/pkg/go/ast/
   build              https://golang.org/pkg/go/build/
+    constraint       https://golang.org/pkg/go/build/constraint/
   constant           https://golang.org/pkg/go/constant/
   doc                https://golang.org/pkg/go/doc/
   format             https://golang.org/pkg/go/format/
@@ -98,6 +103,7 @@ image                https://golang.org/pkg/image/
 index                https://golang.org/pkg/index/
   suffixarray        https://golang.org/pkg/index/suffixarray/
 io                   https://golang.org/pkg/io/
+  fs                 https://golang.org/pkg/io/fs/
   ioutil             https://golang.org/pkg/io/ioutil/
 log                  https://golang.org/pkg/log/
   syslog             https://golang.org/pkg/log/syslog/
@@ -137,6 +143,7 @@ regexp               https://golang.org/pkg/regexp/
 runtime              https://golang.org/pkg/runtime/
   cgo                https://golang.org/pkg/runtime/cgo/
   debug              https://golang.org/pkg/runtime/debug/
+  metrics            https://golang.org/pkg/runtime/metrics/
   pprof              https://golang.org/pkg/runtime/pprof/
   race               https://golang.org/pkg/runtime/race/
   trace              https://golang.org/pkg/runtime/trace/
@@ -147,6 +154,7 @@ sync                 https://golang.org/pkg/sync/
   atomic             https://golang.org/pkg/sync/atomic/
 syscall              https://golang.org/pkg/syscall/
 testing              https://golang.org/pkg/testing/
+  fstest             https://golang.org/pkg/testing/fstest/
   iotest             https://golang.org/pkg/testing/iotest/
   quick              https://golang.org/pkg/testing/quick/
 text                 https://golang.org/pkg/text/

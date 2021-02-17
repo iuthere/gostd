@@ -2,12 +2,14 @@ package main
 
 import (
 	"fmt"
+	"runtime"
 	"strings"
 
 	"golang.org/x/tools/go/packages"
 )
 
 func main() {
+	fmt.Println(runtime.Version())
 	// go list -e std
 	//
 	pkgs, err := packages.Load(nil, "std")

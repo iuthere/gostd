@@ -5,9 +5,9 @@ An almost useless utility that lists all standard Go libraries in a tree-like wa
 Keeping the output here to retrospectively see the global changes to standard library over time (auto-generated with -readme flag).
 
 ```
-$ go get github.com/iuthere/gostd
+$ go install github.com/iuthere/gostd@latest
 $ gostd
-go1.16.2
+go1.16.3
 builtin              https://golang.org/pkg/builtin/
 archive              https://golang.org/pkg/archive/
   tar                https://golang.org/pkg/archive/tar/

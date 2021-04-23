@@ -79,7 +79,7 @@ func main() {
 			}()
 			fmt.Fprintf(out, "%s", f[:from+3])
 			fmt.Fprintf(out, `
-$ go get github.com/iuthere/gostd
+$ go install github.com/iuthere/gostd@latest
 $ gostd
 `)
 			fmt.Fprintf(out, "%s", output)

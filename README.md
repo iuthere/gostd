@@ -1,13 +1,13 @@
 [![github.com/iuthere/gostd](./doc/gobadge.svg)](https://pkg.go.dev/github.com/iuthere/gostd)
 
-An almost useless utility that lists all standard Go libraries in a tree-like way with an URL to documentation for each.
+An almost useless utility that lists all standard Go libraries in a tree-like way with a URL to documentation for each.
 
 Keeping the output here to retrospectively see the global changes to standard library over time (auto-generated with -readme flag).
 
 ```
 $ go install github.com/iuthere/gostd@latest
 $ gostd
-go1.16.3
+go1.16.4
 builtin              https://golang.org/pkg/builtin/
 archive              https://golang.org/pkg/archive/
   tar                https://golang.org/pkg/archive/tar/

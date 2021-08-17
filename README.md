@@ -7,7 +7,7 @@ Keeping the output here to retrospectively see the global changes to standard li
 ```
 $ go install github.com/iuthere/gostd@latest
 $ gostd
-go1.16.4
+go1.17
 builtin              https://golang.org/pkg/builtin/
 archive              https://golang.org/pkg/archive/
   tar                https://golang.org/pkg/archive/tar/

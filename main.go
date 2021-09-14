@@ -91,7 +91,7 @@ $ gostd
 }
 
 func printPadded(w io.Writer, s []string) {
-	fmt.Fprintf(w, "%-20v %v\n", strings.Repeat("  ", len(s)-1)+s[len(s)-1], "https://golang.org/pkg/"+strings.Join(s, "/")+"/")
+	fmt.Fprintf(w, "%-20v %v\n", strings.Repeat("  ", len(s)-1)+s[len(s)-1], "https://pkg.go.dev/"+strings.Join(s, "/"))
 }
 
 func commonRoot(prev, new string) bool {

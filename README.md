@@ -7,165 +7,165 @@ Keeping the output here to retrospectively see the global changes to standard li
 ```
 $ go install github.com/iuthere/gostd@latest
 $ gostd
-go1.17
-builtin              https://golang.org/pkg/builtin/
-archive              https://golang.org/pkg/archive/
-  tar                https://golang.org/pkg/archive/tar/
-  zip                https://golang.org/pkg/archive/zip/
-bufio                https://golang.org/pkg/bufio/
-bytes                https://golang.org/pkg/bytes/
-compress             https://golang.org/pkg/compress/
-  bzip2              https://golang.org/pkg/compress/bzip2/
-  flate              https://golang.org/pkg/compress/flate/
-  gzip               https://golang.org/pkg/compress/gzip/
-  lzw                https://golang.org/pkg/compress/lzw/
-  zlib               https://golang.org/pkg/compress/zlib/
-container            https://golang.org/pkg/container/
-  heap               https://golang.org/pkg/container/heap/
-  list               https://golang.org/pkg/container/list/
-  ring               https://golang.org/pkg/container/ring/
-context              https://golang.org/pkg/context/
-crypto               https://golang.org/pkg/crypto/
-  aes                https://golang.org/pkg/crypto/aes/
-  cipher             https://golang.org/pkg/crypto/cipher/
-  des                https://golang.org/pkg/crypto/des/
-  dsa                https://golang.org/pkg/crypto/dsa/
-  ecdsa              https://golang.org/pkg/crypto/ecdsa/
-  ed25519            https://golang.org/pkg/crypto/ed25519/
-  elliptic           https://golang.org/pkg/crypto/elliptic/
-  hmac               https://golang.org/pkg/crypto/hmac/
-  md5                https://golang.org/pkg/crypto/md5/
-  rand               https://golang.org/pkg/crypto/rand/
-  rc4                https://golang.org/pkg/crypto/rc4/
-  rsa                https://golang.org/pkg/crypto/rsa/
-  sha1               https://golang.org/pkg/crypto/sha1/
-  sha256             https://golang.org/pkg/crypto/sha256/
-  sha512             https://golang.org/pkg/crypto/sha512/
-  subtle             https://golang.org/pkg/crypto/subtle/
-  tls                https://golang.org/pkg/crypto/tls/
-  x509               https://golang.org/pkg/crypto/x509/
-    pkix             https://golang.org/pkg/crypto/x509/pkix/
-database             https://golang.org/pkg/database/
-  sql                https://golang.org/pkg/database/sql/
-    driver           https://golang.org/pkg/database/sql/driver/
-debug                https://golang.org/pkg/debug/
-  dwarf              https://golang.org/pkg/debug/dwarf/
-  elf                https://golang.org/pkg/debug/elf/
-  gosym              https://golang.org/pkg/debug/gosym/
-  macho              https://golang.org/pkg/debug/macho/
-  pe                 https://golang.org/pkg/debug/pe/
-  plan9obj           https://golang.org/pkg/debug/plan9obj/
-embed                https://golang.org/pkg/embed/
-encoding             https://golang.org/pkg/encoding/
-  ascii85            https://golang.org/pkg/encoding/ascii85/
-  asn1               https://golang.org/pkg/encoding/asn1/
-  base32             https://golang.org/pkg/encoding/base32/
-  base64             https://golang.org/pkg/encoding/base64/
-  binary             https://golang.org/pkg/encoding/binary/
-  csv                https://golang.org/pkg/encoding/csv/
-  gob                https://golang.org/pkg/encoding/gob/
-  hex                https://golang.org/pkg/encoding/hex/
-  json               https://golang.org/pkg/encoding/json/
-  pem                https://golang.org/pkg/encoding/pem/
-  xml                https://golang.org/pkg/encoding/xml/
-errors               https://golang.org/pkg/errors/
-expvar               https://golang.org/pkg/expvar/
-flag                 https://golang.org/pkg/flag/
-fmt                  https://golang.org/pkg/fmt/
-go                   https://golang.org/pkg/go/
-  ast                https://golang.org/pkg/go/ast/
-  build              https://golang.org/pkg/go/build/
-    constraint       https://golang.org/pkg/go/build/constraint/
-  constant           https://golang.org/pkg/go/constant/
-  doc                https://golang.org/pkg/go/doc/
-  format             https://golang.org/pkg/go/format/
-  importer           https://golang.org/pkg/go/importer/
-  parser             https://golang.org/pkg/go/parser/
-  printer            https://golang.org/pkg/go/printer/
-  scanner            https://golang.org/pkg/go/scanner/
-  token              https://golang.org/pkg/go/token/
-  types              https://golang.org/pkg/go/types/
-hash                 https://golang.org/pkg/hash/
-  adler32            https://golang.org/pkg/hash/adler32/
-  crc32              https://golang.org/pkg/hash/crc32/
-  crc64              https://golang.org/pkg/hash/crc64/
-  fnv                https://golang.org/pkg/hash/fnv/
-  maphash            https://golang.org/pkg/hash/maphash/
-html                 https://golang.org/pkg/html/
-  template           https://golang.org/pkg/html/template/
-image                https://golang.org/pkg/image/
-  color              https://golang.org/pkg/image/color/
-    palette          https://golang.org/pkg/image/color/palette/
-  draw               https://golang.org/pkg/image/draw/
-  gif                https://golang.org/pkg/image/gif/
-  jpeg               https://golang.org/pkg/image/jpeg/
-  png                https://golang.org/pkg/image/png/
-index                https://golang.org/pkg/index/
-  suffixarray        https://golang.org/pkg/index/suffixarray/
-io                   https://golang.org/pkg/io/
-  fs                 https://golang.org/pkg/io/fs/
-  ioutil             https://golang.org/pkg/io/ioutil/
-log                  https://golang.org/pkg/log/
-  syslog             https://golang.org/pkg/log/syslog/
-math                 https://golang.org/pkg/math/
-  big                https://golang.org/pkg/math/big/
-  bits               https://golang.org/pkg/math/bits/
-  cmplx              https://golang.org/pkg/math/cmplx/
-  rand               https://golang.org/pkg/math/rand/
-mime                 https://golang.org/pkg/mime/
-  multipart          https://golang.org/pkg/mime/multipart/
-  quotedprintable    https://golang.org/pkg/mime/quotedprintable/
-net                  https://golang.org/pkg/net/
-  http               https://golang.org/pkg/net/http/
-    cgi              https://golang.org/pkg/net/http/cgi/
-    cookiejar        https://golang.org/pkg/net/http/cookiejar/
-    fcgi             https://golang.org/pkg/net/http/fcgi/
-    httptest         https://golang.org/pkg/net/http/httptest/
-    httptrace        https://golang.org/pkg/net/http/httptrace/
-    httputil         https://golang.org/pkg/net/http/httputil/
-    pprof            https://golang.org/pkg/net/http/pprof/
-  mail               https://golang.org/pkg/net/mail/
-  rpc                https://golang.org/pkg/net/rpc/
-    jsonrpc          https://golang.org/pkg/net/rpc/jsonrpc/
-  smtp               https://golang.org/pkg/net/smtp/
-  textproto          https://golang.org/pkg/net/textproto/
-  url                https://golang.org/pkg/net/url/
-os                   https://golang.org/pkg/os/
-  exec               https://golang.org/pkg/os/exec/
-  signal             https://golang.org/pkg/os/signal/
-  user               https://golang.org/pkg/os/user/
-path                 https://golang.org/pkg/path/
-  filepath           https://golang.org/pkg/path/filepath/
-plugin               https://golang.org/pkg/plugin/
-reflect              https://golang.org/pkg/reflect/
-regexp               https://golang.org/pkg/regexp/
-  syntax             https://golang.org/pkg/regexp/syntax/
-runtime              https://golang.org/pkg/runtime/
-  cgo                https://golang.org/pkg/runtime/cgo/
-  debug              https://golang.org/pkg/runtime/debug/
-  metrics            https://golang.org/pkg/runtime/metrics/
-  pprof              https://golang.org/pkg/runtime/pprof/
-  race               https://golang.org/pkg/runtime/race/
-  trace              https://golang.org/pkg/runtime/trace/
-sort                 https://golang.org/pkg/sort/
-strconv              https://golang.org/pkg/strconv/
-strings              https://golang.org/pkg/strings/
-sync                 https://golang.org/pkg/sync/
-  atomic             https://golang.org/pkg/sync/atomic/
-syscall              https://golang.org/pkg/syscall/
-testing              https://golang.org/pkg/testing/
-  fstest             https://golang.org/pkg/testing/fstest/
-  iotest             https://golang.org/pkg/testing/iotest/
-  quick              https://golang.org/pkg/testing/quick/
-text                 https://golang.org/pkg/text/
-  scanner            https://golang.org/pkg/text/scanner/
-  tabwriter          https://golang.org/pkg/text/tabwriter/
-  template           https://golang.org/pkg/text/template/
-    parse            https://golang.org/pkg/text/template/parse/
-time                 https://golang.org/pkg/time/
-  tzdata             https://golang.org/pkg/time/tzdata/
-unicode              https://golang.org/pkg/unicode/
-  utf16              https://golang.org/pkg/unicode/utf16/
-  utf8               https://golang.org/pkg/unicode/utf8/
-unsafe               https://golang.org/pkg/unsafe/
+go1.17.1
+builtin              https://pkg.go.dev/builtin
+archive              https://pkg.go.dev/archive
+  tar                https://pkg.go.dev/archive/tar
+  zip                https://pkg.go.dev/archive/zip
+bufio                https://pkg.go.dev/bufio
+bytes                https://pkg.go.dev/bytes
+compress             https://pkg.go.dev/compress
+  bzip2              https://pkg.go.dev/compress/bzip2
+  flate              https://pkg.go.dev/compress/flate
+  gzip               https://pkg.go.dev/compress/gzip
+  lzw                https://pkg.go.dev/compress/lzw
+  zlib               https://pkg.go.dev/compress/zlib
+container            https://pkg.go.dev/container
+  heap               https://pkg.go.dev/container/heap
+  list               https://pkg.go.dev/container/list
+  ring               https://pkg.go.dev/container/ring
+context              https://pkg.go.dev/context
+crypto               https://pkg.go.dev/crypto
+  aes                https://pkg.go.dev/crypto/aes
+  cipher             https://pkg.go.dev/crypto/cipher
+  des                https://pkg.go.dev/crypto/des
+  dsa                https://pkg.go.dev/crypto/dsa
+  ecdsa              https://pkg.go.dev/crypto/ecdsa
+  ed25519            https://pkg.go.dev/crypto/ed25519
+  elliptic           https://pkg.go.dev/crypto/elliptic
+  hmac               https://pkg.go.dev/crypto/hmac
+  md5                https://pkg.go.dev/crypto/md5
+  rand               https://pkg.go.dev/crypto/rand
+  rc4                https://pkg.go.dev/crypto/rc4
+  rsa                https://pkg.go.dev/crypto/rsa
+  sha1               https://pkg.go.dev/crypto/sha1
+  sha256             https://pkg.go.dev/crypto/sha256
+  sha512             https://pkg.go.dev/crypto/sha512
+  subtle             https://pkg.go.dev/crypto/subtle
+  tls                https://pkg.go.dev/crypto/tls
+  x509               https://pkg.go.dev/crypto/x509
+    pkix             https://pkg.go.dev/crypto/x509/pkix
+database             https://pkg.go.dev/database
+  sql                https://pkg.go.dev/database/sql
+    driver           https://pkg.go.dev/database/sql/driver
+debug                https://pkg.go.dev/debug
+  dwarf              https://pkg.go.dev/debug/dwarf
+  elf                https://pkg.go.dev/debug/elf
+  gosym              https://pkg.go.dev/debug/gosym
+  macho              https://pkg.go.dev/debug/macho
+  pe                 https://pkg.go.dev/debug/pe
+  plan9obj           https://pkg.go.dev/debug/plan9obj
+embed                https://pkg.go.dev/embed
+encoding             https://pkg.go.dev/encoding
+  ascii85            https://pkg.go.dev/encoding/ascii85
+  asn1               https://pkg.go.dev/encoding/asn1
+  base32             https://pkg.go.dev/encoding/base32
+  base64             https://pkg.go.dev/encoding/base64
+  binary             https://pkg.go.dev/encoding/binary
+  csv                https://pkg.go.dev/encoding/csv
+  gob                https://pkg.go.dev/encoding/gob
+  hex                https://pkg.go.dev/encoding/hex
+  json               https://pkg.go.dev/encoding/json
+  pem                https://pkg.go.dev/encoding/pem
+  xml                https://pkg.go.dev/encoding/xml
+errors               https://pkg.go.dev/errors
+expvar               https://pkg.go.dev/expvar
+flag                 https://pkg.go.dev/flag
+fmt                  https://pkg.go.dev/fmt
+go                   https://pkg.go.dev/go
+  ast                https://pkg.go.dev/go/ast
+  build              https://pkg.go.dev/go/build
+    constraint       https://pkg.go.dev/go/build/constraint
+  constant           https://pkg.go.dev/go/constant
+  doc                https://pkg.go.dev/go/doc
+  format             https://pkg.go.dev/go/format
+  importer           https://pkg.go.dev/go/importer
+  parser             https://pkg.go.dev/go/parser
+  printer            https://pkg.go.dev/go/printer
+  scanner            https://pkg.go.dev/go/scanner
+  token              https://pkg.go.dev/go/token
+  types              https://pkg.go.dev/go/types
+hash                 https://pkg.go.dev/hash
+  adler32            https://pkg.go.dev/hash/adler32
+  crc32              https://pkg.go.dev/hash/crc32
+  crc64              https://pkg.go.dev/hash/crc64
+  fnv                https://pkg.go.dev/hash/fnv
+  maphash            https://pkg.go.dev/hash/maphash
+html                 https://pkg.go.dev/html
+  template           https://pkg.go.dev/html/template
+image                https://pkg.go.dev/image
+  color              https://pkg.go.dev/image/color
+    palette          https://pkg.go.dev/image/color/palette
+  draw               https://pkg.go.dev/image/draw
+  gif                https://pkg.go.dev/image/gif
+  jpeg               https://pkg.go.dev/image/jpeg
+  png                https://pkg.go.dev/image/png
+index                https://pkg.go.dev/index
+  suffixarray        https://pkg.go.dev/index/suffixarray
+io                   https://pkg.go.dev/io
+  fs                 https://pkg.go.dev/io/fs
+  ioutil             https://pkg.go.dev/io/ioutil
+log                  https://pkg.go.dev/log
+  syslog             https://pkg.go.dev/log/syslog
+math                 https://pkg.go.dev/math
+  big                https://pkg.go.dev/math/big
+  bits               https://pkg.go.dev/math/bits
+  cmplx              https://pkg.go.dev/math/cmplx
+  rand               https://pkg.go.dev/math/rand
+mime                 https://pkg.go.dev/mime
+  multipart          https://pkg.go.dev/mime/multipart
+  quotedprintable    https://pkg.go.dev/mime/quotedprintable
+net                  https://pkg.go.dev/net
+  http               https://pkg.go.dev/net/http
+    cgi              https://pkg.go.dev/net/http/cgi
+    cookiejar        https://pkg.go.dev/net/http/cookiejar
+    fcgi             https://pkg.go.dev/net/http/fcgi
+    httptest         https://pkg.go.dev/net/http/httptest
+    httptrace        https://pkg.go.dev/net/http/httptrace
+    httputil         https://pkg.go.dev/net/http/httputil
+    pprof            https://pkg.go.dev/net/http/pprof
+  mail               https://pkg.go.dev/net/mail
+  rpc                https://pkg.go.dev/net/rpc
+    jsonrpc          https://pkg.go.dev/net/rpc/jsonrpc
+  smtp               https://pkg.go.dev/net/smtp
+  textproto          https://pkg.go.dev/net/textproto
+  url                https://pkg.go.dev/net/url
+os                   https://pkg.go.dev/os
+  exec               https://pkg.go.dev/os/exec
+  signal             https://pkg.go.dev/os/signal
+  user               https://pkg.go.dev/os/user
+path                 https://pkg.go.dev/path
+  filepath           https://pkg.go.dev/path/filepath
+plugin               https://pkg.go.dev/plugin
+reflect              https://pkg.go.dev/reflect
+regexp               https://pkg.go.dev/regexp
+  syntax             https://pkg.go.dev/regexp/syntax
+runtime              https://pkg.go.dev/runtime
+  cgo                https://pkg.go.dev/runtime/cgo
+  debug              https://pkg.go.dev/runtime/debug
+  metrics            https://pkg.go.dev/runtime/metrics
+  pprof              https://pkg.go.dev/runtime/pprof
+  race               https://pkg.go.dev/runtime/race
+  trace              https://pkg.go.dev/runtime/trace
+sort                 https://pkg.go.dev/sort
+strconv              https://pkg.go.dev/strconv
+strings              https://pkg.go.dev/strings
+sync                 https://pkg.go.dev/sync
+  atomic             https://pkg.go.dev/sync/atomic
+syscall              https://pkg.go.dev/syscall
+testing              https://pkg.go.dev/testing
+  fstest             https://pkg.go.dev/testing/fstest
+  iotest             https://pkg.go.dev/testing/iotest
+  quick              https://pkg.go.dev/testing/quick
+text                 https://pkg.go.dev/text
+  scanner            https://pkg.go.dev/text/scanner
+  tabwriter          https://pkg.go.dev/text/tabwriter
+  template           https://pkg.go.dev/text/template
+    parse            https://pkg.go.dev/text/template/parse
+time                 https://pkg.go.dev/time
+  tzdata             https://pkg.go.dev/time/tzdata
+unicode              https://pkg.go.dev/unicode
+  utf16              https://pkg.go.dev/unicode/utf16
+  utf8               https://pkg.go.dev/unicode/utf8
+unsafe               https://pkg.go.dev/unsafe
 ```

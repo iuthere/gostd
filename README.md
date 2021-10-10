@@ -1,4 +1,4 @@
-[![github.com/iuthere/gostd](./doc/gobadge.svg)](https://pkg.go.dev/github.com/iuthere/gostd)
+[![https://github.com/iuthere/gostd](./doc/gobadge.svg)](https://pkg.go.dev/github.com/iuthere/gostd)
 
 An almost useless utility that lists all standard Go libraries in a tree-like way with a URL to documentation for each.
 
